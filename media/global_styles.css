@@ -1,0 +1,15 @@
+
+.emojione_image {
+    margin-left: 3px;
+    margin-right: 3px;
+    vertical-align: middle;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.emojione_image.size_16 { width: 16px; height: 16px; }
+.emojione_image.size_18 { width: 18px; height: 18px; }
+.emojione_image.size_24 { width: 24px; height: 24px; }
+.emojione_image.size_32 { width: 32px; height: 32px; }
+.emojione_image.size_64 { width: 64px; height: 64px; }
