@@ -8,13 +8,9 @@
         Source: <a href="https://wordpress.org/plugins/wp-emoji-one/" target="_blank">The WP Emoji One plugin page</a>.
     ]]></description>
     
-    <tinymce_addon function="emojione_for_bardcanvas" icon="fa-smile-o">
-        <caption>Emoji One</caption>
-        <title>Insert Emoji</title>
-    </tinymce_addon>
-    
     <tinymce_strings>
         <title>Select Emoji to insert</title>
+        <button>Insert emoji</button>
     </tinymce_strings>
     
     <popup>

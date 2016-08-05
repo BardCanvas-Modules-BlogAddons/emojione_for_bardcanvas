@@ -12,4 +12,5 @@
 
 <div id="emojione_for_bardcanvas_tinymce_strings" style="display: none;">
     <div class="title"><?= $this_module->language->tinymce_strings->title ?></div>
+    <div class="button"><?= $this_module->language->tinymce_strings->button ?></div>
 </div>
