@@ -8,7 +8,7 @@
 
 function emojiinsert(icon) {
 
-	var icontag = '<img src="'+wpemojionedomain+'icons/'+icon+'" '
+	var icontag = '<img src="'+wpemojionedomain+'icons/'+icon+'" height="'+document.getElementById('iconsize').value+'"'
                 + '     class="emojione_image size_'+document.getElementById('iconsize').value+'">';
     
 	if (parent.tinymce.isIE) {
