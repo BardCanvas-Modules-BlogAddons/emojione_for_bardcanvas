@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    
+    <display_name>Emoji One para BardCanvas</display_name>
+    <icon>fa-film</icon>
+    <description><![CDATA[
+        Traspaso de wp-emoji-one para BardCanvas. Agrega un botón a TinyMCE que permite la inserción de imágenes de emoji.<br>
+        Fuente: <a href="https://wordpress.org/plugins/wp-emoji-one/" target="_blank">Página del plugin WP Emoji One en Wordpress</a>.
+    ]]></description>
+    
+    <tinymce_strings>
+        <title>Seleccionar emoji a insertar</title>
+        <button>Insertar emoji</button>
+    </tinymce_strings>
+    
+    <popup>
+        <title>Emoji One</title>
+        <tabs>
+            <people>Gente</people>
+            <nature>Naturaleza y animales</nature>
+            <food>Alimentos y bebidas</food>
+            <celebration>Celebraciones</celebration>
+            <activity>Actividades</activity>
+            <travel>Viajes y lugares</travel>
+            <objects>Objetos y símbolos</objects>
+        </tabs>
+        <size_box>
+            <size>Tamaño:</size>
+            <info>Selecciona el tamaño de los emoji.</info>
+        </size_box>
+    </popup>
+    
+</language>

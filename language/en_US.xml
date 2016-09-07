@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
     
-    <display_name>Emoji One for Bardcanvas</display_name>
+    <display_name>Emoji One for BardCanvas</display_name>
     <icon>fa-film</icon>
     <description><![CDATA[
-        Port of wp-emoji-one for BardCanvas. Adds a button that allows insertion of emoji images.<br>
+        Port of wp-emoji-one for BardCanvas. Adds a button on TinyMCE that allows insertion of emoji images.<br>
         Source: <a href="https://wordpress.org/plugins/wp-emoji-one/" target="_blank">The WP Emoji One plugin page</a>.
     ]]></description>
     
@@ -14,7 +14,7 @@
     </tinymce_strings>
     
     <popup>
-        <title>WP Emoji One</title>
+        <title>Emoji One</title>
         <tabs>
             <people>People</people>
             <nature>Nature and animals</nature>
@@ -26,7 +26,7 @@
         </tabs>
         <size_box>
             <size>Size:</size>
-            <info>Specify the image size to use for the icons.</info>
+            <info>Select image size for the emoji.</info>
         </size_box>
     </popup>
     
