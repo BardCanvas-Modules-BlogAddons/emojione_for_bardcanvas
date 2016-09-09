@@ -7,11 +7,16 @@ tinymce.PluginManager.add('wp_emoji_one', function(ed, url)
     
     ed.addCommand('wp_emoji_one', function()
     {
+        var width  = $(window).width();
+        var height = $(window).height();
+        if( width  > 630 ) width  = 630;
+        if( height > 350 ) height = 350;
+        
         ed.windowManager.open({
             url:    $_FULL_ROOT_PATH + '/emojione_for_bardcanvas/wp-emoji-one/popup.php',
             title:  _title,
-            width:  630,
-            height: 350
+            width:  width,
+            height: height
         }, {
             plugin_url : url // Plugin absolute URL
         });
