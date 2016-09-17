@@ -2,7 +2,7 @@
 <language>
     
     <display_name>Emoji One for BardCanvas</display_name>
-    <icon>fa-film</icon>
+    <icon>fa-smile-o</icon>
     <description><![CDATA[
         Port of wp-emoji-one for BardCanvas. Adds a button on TinyMCE that allows insertion of emoji images.<br>
         Source: <a href="https://wordpress.org/plugins/wp-emoji-one/" target="_blank">The WP Emoji One plugin page</a>.
