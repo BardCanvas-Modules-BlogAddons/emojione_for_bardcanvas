@@ -35,7 +35,7 @@
         <!--<post_rendering></post_rendering>-->
     </template_includes>
     
-    <tinymce_additions>
+    <tinymce_additions useragent_exclussions="/iphone|ipad|ipod|android|windows phone|blackberry/i">
         <css>media/global_styles~v1.css</css>
         <plugin name="wp_emoji_one">wp-emoji-one/js/editor_plugin~v1.1.js</plugin>
         <toolbar>wp_emoji_one</toolbar>
